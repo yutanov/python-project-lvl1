@@ -24,7 +24,7 @@ def right_answer():
 
 def wrong_answer(name, answer, check_answer):
     print("'{}' is wrong answer ;(."
-    "Correct answer was '{}'.".format(answer, check_answer))
+          "Correct answer was '{}'.".format(answer, check_answer))
     print("Let's try again, {}!".format(name))
 
 
