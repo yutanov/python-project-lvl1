@@ -5,7 +5,7 @@ import prompt
 
 
 def get_answer():
-    number = int(random.randint(1,100))
+    number = int(random.randint(1, 100))
     print('Question: ', number)
     answer = str(input('Your answer: '))
     return number, answer
@@ -23,7 +23,8 @@ def right_answer():
 
 
 def wrong_answer(name, answer, check_answer):
-    print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(answer, check_answer))
+    print("'{}' is wrong answer ;(."
+    "Correct answer was '{}'.".format(answer, check_answer))
     print("Let's try again, {}!".format(name))
 
 
@@ -40,7 +41,7 @@ def game(name):
         else:
             wrong_answer(name, answer, check_answer)
             break
-    else:    
+    else:
         congratilations(name)
 
 
@@ -51,10 +52,6 @@ def main():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     game(name)
 
+
 if __name__ == "__main__":
     main()
-
-
-
-
-
