@@ -5,12 +5,12 @@ from brain_games.scripts import base
 
 def brain_even():
     from brain_games.scripts import brain_even
-    module = brain_even
-    main(module)
+    main(brain_even)
 
 
 def brain_calc():
-    pass
+    from brain_games.scripts import brain_calc
+    main(brain_calc)
 
 
 def n3():
