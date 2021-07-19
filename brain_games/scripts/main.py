@@ -13,6 +13,7 @@ def brain_even():
 def brain_calc():
     pass
 
+
 def n3():
     pass
 
@@ -38,10 +39,7 @@ def start(module, name):
         base.congratilations(name)
 
 
-
 def main(module):
     name = base.greeting()
     print(module.COND)
     start(module, name)
-
-

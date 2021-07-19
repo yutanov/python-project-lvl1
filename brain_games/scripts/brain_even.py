@@ -1,5 +1,4 @@
 import random
-import prompt
 
 
 COND = 'Answer "yes" if the number is even, otherwise answer "no".'
@@ -17,4 +16,3 @@ def check_answer(number):
         return('yes')
     else:
         return('no')
-
