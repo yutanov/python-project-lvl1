@@ -23,8 +23,9 @@ def brain_progression():
     main(brain_progression)
 
 
-def n5():
-    pass
+def brain_prime():
+    from brain_games.scripts import brain_prime
+    main(brain_prime)
 
 
 def start(module, name):

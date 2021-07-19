@@ -15,6 +15,6 @@ def get_answer():
     n_correct = pr_list.pop(n_inv)
     pr_list.insert(n_inv, "..")
     pr_string = " ".join(str(e) for e in pr_list)
-    print(pr_string)
+    print("Question: ", pr_string)
     answer = int(input("Your answer: "))
     return n_correct, answer
