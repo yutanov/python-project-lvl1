@@ -5,7 +5,6 @@ from brain_games.scripts import base
 
 def brain_even():
     from brain_games.scripts import brain_even
-    print("GET IT!!!")
     module = brain_even
     main(module)
 
