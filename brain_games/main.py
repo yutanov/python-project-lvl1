@@ -13,8 +13,9 @@ def brain_calc():
     main(brain_calc)
 
 
-def n3():
-    pass
+def brain_gcd():
+    from brain_games.scripts import brain_gcd
+    main(brain_gcd)
 
 
 def n4():
@@ -27,12 +28,11 @@ def n5():
 
 def start(module, name):
     for i in range(3):
-        number, answer = module.get_answer()
-        check = module.check_answer(number)
-        if check == answer:
+        correct_answer, answer = module.get_answer()
+        if correct_answer == answer:
             base.right_answer()
         else:
-            base.wrong_answer(name, answer, check)
+            base.wrong_answer(name, answer, correct_answer)
             break
     else:
         base.congratilations(name)

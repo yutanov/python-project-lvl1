@@ -14,8 +14,3 @@ def get_answer():
     print("Question: {} {} {}".format(num_one, op, num_two))
     answer = int(input("Your answer: "))
     return expression, answer
-
-
-def check_answer(expression):
-    return expression
-   

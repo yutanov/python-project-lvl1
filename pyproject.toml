@@ -13,6 +13,7 @@ prompt = "^0.4.1"
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.main:brain_even"
 brain-calc = "brain_games.main:brain_calc"
+brain-gcd = "brain_games.main:brain_gcd"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"
