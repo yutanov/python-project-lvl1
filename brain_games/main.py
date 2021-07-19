@@ -18,8 +18,9 @@ def brain_gcd():
     main(brain_gcd)
 
 
-def n4():
-    pass
+def brain_progression():
+    from brain_games.scripts import brain_progression
+    main(brain_progression)
 
 
 def n5():
