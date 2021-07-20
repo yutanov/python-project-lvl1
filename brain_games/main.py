@@ -4,7 +4,7 @@ from brain_games.scripts import base
 
 
 def brain_even():
-    from brain_games.games import brain_even 
+    from brain_games.games import brain_even
     main(brain_even)
 
 
