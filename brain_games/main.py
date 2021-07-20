@@ -4,27 +4,27 @@ from brain_games.scripts import base
 
 
 def brain_even():
-    from brain_games.scripts import brain_even
+    from brain_games.games import brain_even
     main(brain_even)
 
 
 def brain_calc():
-    from brain_games.scripts import brain_calc
+    from brain_games.games import brain_calc
     main(brain_calc)
 
 
 def brain_gcd():
-    from brain_games.scripts import brain_gcd
+    from brain_games.games import brain_gcd
     main(brain_gcd)
 
 
 def brain_progression():
-    from brain_games.scripts import brain_progression
+    from brain_games.games import brain_progression
     main(brain_progression)
 
 
 def brain_prime():
-    from brain_games.scripts import brain_prime
+    from brain_games.games import brain_prime
     main(brain_prime)
 
 
