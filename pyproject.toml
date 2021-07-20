@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "yutanov-brain-games"
+name = "hexlet-code"
 version = "0.1.0"
 description = "My first python project"
 authors = ["Alexey Yutanov <utanov@gmail.com>"]
