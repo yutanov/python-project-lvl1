@@ -37,7 +37,7 @@ def start(module, name):
             base.wrong_answer(name, answer, correct_answer)
             break
     else:
-        base.congratilations(name)
+        base.congratulations(name)
 
 
 def main(module):
