@@ -20,5 +20,5 @@ def wrong_answer(name, answer, check_answer):
     print("Let's try again, {}!".format(name))
 
 
-def congratilations(name):
-    print("Congratilations, {}!".format(name))
+def congratulations(name):
+    print("Congratulations, {}!".format(name))
