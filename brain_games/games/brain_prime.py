@@ -13,6 +13,6 @@ def is_Prime(num):
 def get_answer():
     num = random.randint(1, 100)
     right_answer = is_Prime(num)
-    print("Question: ", num)
+    print("Question:", num)
     answer = input("Your answer: ")
     return right_answer, answer
