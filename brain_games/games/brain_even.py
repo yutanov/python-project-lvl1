@@ -13,7 +13,7 @@ def is_even(number):
 
 def get_answer():
     number = random.randint(1, 100)
-    print("Question: ", number)
+    print("Question:", number)
     correct_answer = is_even(number)
     answer = str(input("Your answer: "))
     return correct_answer, answer
